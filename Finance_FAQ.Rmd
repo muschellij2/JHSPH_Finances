@@ -24,7 +24,7 @@ These represent some frequently asked questions (FAQs) or important links to und
 
 ```{r, echo=FALSE, results='asis'}
 library(htmltools)
-func = function(id, title, value){
+func = function(id, title, inner = FALSE){
   id_no = paste0("#", id)
   b = paste0('<div class="panel panel-default">
             <div class="panel-heading">
@@ -32,9 +32,9 @@ func = function(id, title, value){
                     <a data-toggle="collapse" data-parent="#accordion" href="', id_no, '">', title, '</a>
                 </h4>
             </div>
-            <div id="', id, '" class="panel-collapse collapse">
+            <div id="', id, '" class="panel-collapse collapse', ifelse(inner, "in", ""), '>
                 <div class="panel-body">
-                    ', value)
+                    ')
   HTML(b)
 }
 ender = HTML('</div> </div> </div>')
@@ -48,14 +48,14 @@ start
 
 ```{r, echo=FALSE, results='asis'}
 library(htmltools)
-func(id = "payroll", 
+func(id = "payroll1", 
      title = "1.  Where is my payroll information? ", 
-     value = '')
+     inner = TRUE)
 ```
 
 - Go to [http://ess.johnshopkins.edu/](http://ess.johnshopkins.edu/) and see the following page, and click "Login": 
 <div style="width:200px; height=200px">
-![ESS Login](ESS_login.png)
+![ESS Login](http://i.imgur.com/Mv74Ui2.png)
 </div>
 - Type your JHED Again
 - Click "Payroll information" 
@@ -63,23 +63,11 @@ func(id = "payroll",
 `r ender`
 
 
-
-
-1.  Where is my payroll information? 
-Here is how you can view your payroll information:
-
-- Go to [http://ess.johnshopkins.edu/](http://ess.johnshopkins.edu/) and see the following page, and click "Login": 
-<div style="width:200px; height=200px">
-![ESS Login](ESS_login.png)
-</div>
-- Type your JHED Again
-- Click "Payroll information" 
-
-`r func(id = "exempt", title = "2.  How do I change my number of dependencies/exemptions?", value = '')`
+`r func(id = "payroll2", title = "2.  How do I change my number of dependencies/exemptions?", inner = FALSE)`
 
 A [W-4 form](http://www.irs.gov/pub/irs-pdf/fw4.pdf) describes the number of dependencies/exemptions you have.  This is important because payroll will tax you differently depending on the number of dependencies.  Dependencies are most commonly children, but you may have other exemptions.  
 
-First, go to your payroll information as described [here](#payroll).  Then 
+First, go to your payroll information as described [here](#payroll1).  Then 
 
 - Click "Federal and State Withholding"
 - Change Exemptions
@@ -95,7 +83,7 @@ First, go to your payroll information as described [here](#payroll).  Then
 - Type in your JHED information
 - On the left hand side, you should see a tab named "HR", and click "ESS":
 
-![ESS Tab](ESS_tab.png)
+![ESS Tab](http://i.imgur.com/txt2N49.png)
 
 
 W-4 

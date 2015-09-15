@@ -2,72 +2,64 @@
 title: "Untitled"
 author: "John Muschelli"
 date: "September 15, 2015"
-output: html_document
+output:
+  html_document:
+    includes:
+      in_header: header.html
 ---
 
 
-```r
-output:
-  knitrBootstrap::bootstrap_document:
-    title: "Untitled"
-    theme: amelia
-    highlight: sunburst
-    theme.chooser: TRUE
-    highlight.chooser: TRUE
-```
 
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
-<style type="text/css">
-    .bs-example{
-    	margin: 20px;
-    }
-</style>
 
-<div class="bs-example">
-    <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
-            <div class="panel-heading">
-                <h4 class="panel-title">
-                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">1. What is HTML?</a>
-                </h4>
-            </div>
-            <div id="collapseOne" class="panel-collapse collapse in">
-                <div class="panel-body">
-                    <p>HTML stands for HyperText Markup Language. HTML is the main markup language for describing the structure of Web pages. <a href="http://www.tutorialrepublic.com/html-tutorial/" target="_blank">Learn more.</a></p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div> 
-
-FAQs
-
+# FAQs
 These represent some frequently asked questions (FAQs) or important links to understand your pay.  
 
-<div id="payroll">
-1.  Where is my payroll information? 
-Here is how you can view your payroll information:
+<!--html_preserve--><div class="bs-example">
+    <div class="panel-group" id="accordion">
+        <div class="panel panel-default"><!--/html_preserve-->
+
+
+<!--html_preserve--><div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#payroll1">1.  Where is my payroll information? </a>
+                </h4>
+            </div>
+            <div id="payroll1" class="panel-collapse collapsein>
+                <div class="panel-body">
+                    <!--/html_preserve-->
 
 - Go to [http://ess.johnshopkins.edu/](http://ess.johnshopkins.edu/) and see the following page, and click "Login": 
 <div style="width:200px; height=200px">
-![ESS Login](ESS_login.png)
+![ESS Login](http://i.imgur.com/Mv74Ui2.png)
 </div>
 - Type your JHED Again
 - Click "Payroll information" 
-</div>
+
+<!--html_preserve--></div> </div> </div><!--/html_preserve-->
 
 
-2.  How do I change my number of dependencies/exemptions?
+<!--html_preserve--><div class="panel panel-default">
+            <div class="panel-heading">
+                <h4 class="panel-title">
+                    <a data-toggle="collapse" data-parent="#accordion" href="#payroll2">2.  How do I change my number of dependencies/exemptions?</a>
+                </h4>
+            </div>
+            <div id="payroll2" class="panel-collapse collapse>
+                <div class="panel-body">
+                    <!--/html_preserve-->
 
 A [W-4 form](http://www.irs.gov/pub/irs-pdf/fw4.pdf) describes the number of dependencies/exemptions you have.  This is important because payroll will tax you differently depending on the number of dependencies.  Dependencies are most commonly children, but you may have other exemptions.  
 
-First, go to your payroll information as described [here](#payroll).  Then 
+First, go to your payroll information as described [here](#payroll1).  Then 
 
 - Click "Federal and State Withholding"
 - Change Exemptions
+
+<!--html_preserve--></div> </div> </div><!--/html_preserve-->
+
+<!--html_preserve--></div> </div><!--/html_preserve-->
+
 
 3.  
 
@@ -75,7 +67,7 @@ First, go to your payroll information as described [here](#payroll).  Then
 - Type in your JHED information
 - On the left hand side, you should see a tab named "HR", and click "ESS":
 
-![ESS Tab](ESS_tab.png)
+![ESS Tab](http://i.imgur.com/txt2N49.png)
 
 
 W-4 
@@ -132,3 +124,5 @@ CHECK your pay at
 1) The beginning of the summer
 2) The end of the summer
 3) Winter session
+
+
