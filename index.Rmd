@@ -137,7 +137,7 @@ For 2015, the list is [here](http://ssc.jhmi.edu/hr_payroll/DataFiles_HR_Payroll
 
 `r ender`
 
-`r func(id = "payday", title = "8. What's the difference between hourly and salary payments?")`
+`r func(id = "hourly_salary", title = "8. What's the difference between hourly and salary payments?")`
 
 This is one of the most confusing concepts.  Most importantly, at the end of the year *YOU WILL GET THE SAME AMOUNT OF MONEY* if you work the same number of hours at a fixed rate.  
 
@@ -179,7 +179,7 @@ in total that year if you worked 10 hours each week.   Once you are done a posit
 
 `r ender`
 
-`r func(id = "payday", title = "8. Can you have different wages/rates for different jobs?")`
+`r func(id = "wages", title = "8. Can you have different wages/rates for different jobs?")`
 
 Yes.  Each position (work for person A and person B) can have a different wage/rate.  Ask about this before you start to get paid to expect how much money you wil receive.
 
