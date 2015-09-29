@@ -181,7 +181,7 @@ in total that year if you worked 10 hours each week.   Once you are done a posit
 
 `r func(id = "wages", title = "8. Can you have different wages/rates for different jobs?")`
 
-Yes.  Each position (work for person A and person B) can have a different wage/rate.  Ask about this before you start to get paid to expect how much money you wil receive.
+Yes.  Each position (work for person A and person B) can have a different wage/rate.  Ask about this before you start to get paid to expect how much money you will receive.
 
 `r ender`
 
