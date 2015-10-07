@@ -199,7 +199,7 @@ For quarterly estimated tax deadlines, see below:
 
 http://www.irs.gov/publications/p509/ar02.html 
 
-If you under-estimate the amount you'll owe in taxes by $500 or more (as I recall), you have to pay interested on the difference. So effectively it might not matter if you just wait until the last quarter and settle up then. However, I like to spread it out over the year, in good faith. I use a quick and dirty online tax estimator to get a ballpark figure for my estimations. You do *not* need to pay estimated taxes on "Salary" payments, since those typically *do* have taxes witheld from them directly. So your estimation should just be based on your fellowship funds or any funds that do not have taxes witheld. 
+If you under-estimate the amount you'll owe in taxes by $500 or more (as I recall), you have to pay interested on the difference. So effectively it might not matter if you just wait until the last quarter and settle up then. There is a quick and dirty online tax estimator to get a ballpark figure for my estimations. You do *not* need to pay estimated taxes on "Salary" payments, since those typically *do* have taxes witheld from them directly. So your estimation should just be based on your fellowship funds or any funds that do not have taxes witheld. 
 
 For Maryland taxes, you can do this automatically online, with "iFile"
 https://interactive.marylandtaxes.com/Individuals/iFile_ChooseForm/default.asp
