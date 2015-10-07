@@ -183,6 +183,34 @@ in total that year if you worked 10 hours each week.   Once you are done a posit
 
 Yes.  Each position (work for person A and person B) can have a different wage/rate.  Ask about this before you start to get paid to expect how much money you will receive.
 
+
+
+
+`r ender`
+
+`r func(id = "estimatedTax", title = "9. Do I need to pay estimated taxes during the year?")`
+
+If you don't have any taxes witheld from your paycheck, then probably yes.
+
+At least if you're an US citizen, you're supposed to pay estimated taxes on this income on a quarterly basis. In other words, you're supposed to guess how much you'll need to pay, and then personally send it in to the IRS and to the state of Maryland. You can't just keep it or invest it until tax time on April 15.
+
+For quarterly estimated tax deadlines, see below:
+"Estimated tax payments (Form 1040-ES).   Payments are due on the 15th day of the 4th, 6th, and 9th months of your tax year and on the 15th day of the 1st month after your tax year ends."
+
+http://www.irs.gov/publications/p509/ar02.html 
+
+If you under-estimate the amount you'll owe in taxes by $500 or more (as I recall), you have to pay interested on the difference. So effectively it might not matter if you just wait until the last quarter and settle up then. However, I like to spread it out over the year, in good faith. I use a quick and dirty online tax estimator to get a ballpark figure for my estimations. You do *not* need to pay estimated taxes on "Salary" payments, since those typically *do* have taxes witheld from them directly. So your estimation should just be based on your fellowship funds or any funds that do not have taxes witheld. 
+
+For Maryland taxes, you can do this automatically online, with "iFile"
+https://interactive.marylandtaxes.com/Individuals/iFile_ChooseForm/default.asp
+(choose form 502D)
+
+For federal taxes, you can schedule payments with the Electronic Federal Tax Payment System (EFTPS)
+https://www.eftps.gov/eftps/login/loginInitial
+
+With EFTPS, you'll need to enroll, which is a process that can take a couple of weeks because you need to receive info from them in the mail.
+
+
 `r ender`
 
 
